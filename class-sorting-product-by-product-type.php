@@ -106,7 +106,7 @@ if( ! class_exists( 'WHSortingByProductType' ) ) :
 
 			if ( 'producttype' == $orderby_value ) {
 				$args['orderby'] = 'meta_value';
-				$args['order'] = 'desc'; // lists SKUs alphabetically 0-9, a-z; change to desc for reverse alphabetical
+				$args['order'] = 'asc'; // lists Product-type alphabetically 0-9, a-z; change to desc for reverse alphabetical
 				$args['meta_key'] = 'producttype';
 			}
 
